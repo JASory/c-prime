@@ -1,0 +1,17 @@
+[package]
+name = "c-prime"
+version = "0.1.0"
+edition = "2021"
+author = ["JASory jasory@rust-cas.org"]
+description = "Convenience wrapper for machine-prime"
+repository = "https://github.com/JASory/c-prime"
+keywords = ["primality", "prime","primes","primal","number-theory"]
+categories = ["mathematics"]
+license = "CC0-1.0"
+readme = "README.md"
+
+[dependencies.machine-prime]
+version="1.4.1"
+default-features = false
+features=["ssmr","wide"]
+
