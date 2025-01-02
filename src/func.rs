@@ -7,7 +7,7 @@ const fn bounded_search(mut x: u128, stride: u128) -> u128{
      }
      
      
-     if machine_prime::is_prime(x){
+     if machine_prime::is_prime_128(x){
         return x;
      }
    }

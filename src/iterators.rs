@@ -126,7 +126,7 @@ impl<const RING: u128, const RESIDUE: u128> Iterator for ResiduePrime<RING,RESID
             }
             self.p += RING;
             let x: u128 = self.p;
-            if machine_prime::is_prime(x) {
+            if machine_prime::is_prime_128(x) {
                 return Some(x);
             }
         }

@@ -1,6 +1,6 @@
 [package]
 name = "c-prime"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 author = ["JASory jasory@rust-cas.org"]
 description = "Convenience wrapper for machine-prime"
@@ -11,7 +11,7 @@ license = "CC0-1.0"
 readme = "README.md"
 
 [dependencies.machine-prime]
-version="1.4.1"
+version="1.5.0"
 default-features = false
 features=["ssmr","wide"]
 
